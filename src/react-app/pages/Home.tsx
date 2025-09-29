@@ -10,7 +10,7 @@ export default function Home() {
     link.href = 'https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap';
     link.rel = 'stylesheet';
     document.head.appendChild(link);
-    
+
     setIsLoaded(true);
   }, []);
 
@@ -35,7 +35,7 @@ export default function Home() {
               <Instagram className="w-8 h-8 text-white mr-3" />
               <span className="text-2xl font-bold text-white">@acervodelaz</span>
             </div>
-            
+
             <h1 className="text-5xl font-extrabold tracking-tight text-white sm:text-7xl mb-6">
               <span className="bg-gradient-to-r from-pink-400 to-orange-400 bg-clip-text text-transparent">
                 Acesso Exclusivo
@@ -43,20 +43,23 @@ export default function Home() {
               <br />
               <span className="text-4xl sm:text-5xl">aos Meus Vídeos</span>
             </h1>
-            
+
             <p className="mx-auto mt-6 max-w-2xl text-xl leading-8 text-purple-100">
               Entre no clubinho fechado e tenha acesso aos vídeos mais ousados e sensuais que não estão em nenhum outro lugar
             </p>
-            
+
+
             <div className="mt-10 flex flex-col items-center justify-center gap-6">
-              <button className="group relative overflow-hidden rounded-full bg-gradient-to-r from-pink-500 to-orange-500 px-8 py-4 text-lg font-semibold text-white shadow-xl transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:shadow-pink-500/25">
-                <span className="relative z-10 flex items-center">
-                  <Instagram className="w-5 h-5 mr-2" />
-                  Mandar "Quero entrar no privado" no Instagram
-                </span>
-                <div className="absolute inset-0 bg-gradient-to-r from-pink-400 to-orange-400 opacity-0 transition-opacity duration-300 group-hover:opacity-100"></div>
-              </button>
-              
+              <a href="https://ig.me/m/acervodelaz">
+                <button className="group relative overflow-hidden rounded-full bg-gradient-to-r from-pink-500 to-orange-500 px-8 py-4 text-lg font-semibold text-white shadow-xl transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:shadow-pink-500/25">
+                  <span className="relative z-10 flex items-center">
+                    <Instagram className="w-5 h-5 mr-2" />
+                    Mandar "Quero entrar no privado" no Instagram
+                  </span>
+                  <div className="absolute inset-0 bg-gradient-to-r from-pink-400 to-orange-400 opacity-0 transition-opacity duration-300 group-hover:opacity-100"></div>
+                </button>
+              </a>
+
               <div className="text-center">
                 <p className="text-purple-100 text-lg mb-2">
                   📱 <strong>Como ter acesso:</strong>
@@ -81,9 +84,9 @@ export default function Home() {
               Todas as vantagens de estar no grupo VIP
             </p>
           </div>
-          
+
           <div className="mx-auto grid max-w-2xl grid-cols-1 gap-8 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3">
-            
+
             {/* Benefit 1 */}
             <div className="group relative overflow-hidden rounded-3xl bg-gradient-to-br from-white/10 to-white/5 backdrop-blur-xl border border-white/20 p-8 transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:shadow-pink-500/20">
               <div className="absolute inset-0 bg-gradient-to-br from-pink-500/10 to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100"></div>
@@ -166,21 +169,23 @@ export default function Home() {
         <div className="relative mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto max-w-2xl text-center">
             <h2 className="text-4xl font-bold tracking-tight text-white sm:text-5xl mb-6">
-              Pronta para entrar?
+              Pronto para entrar?
             </h2>
             <p className="text-xl leading-8 text-purple-100 mb-10">
               Não perca mais tempo. Acesse agora os vídeos exclusivos que você sempre quis ver.
             </p>
-            
+
             <div className="space-y-6">
-              <button className="group relative overflow-hidden rounded-full bg-gradient-to-r from-pink-500 to-orange-500 px-12 py-6 text-xl font-bold text-white shadow-2xl transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:shadow-pink-500/25">
-                <span className="relative z-10 flex items-center justify-center">
-                  <Instagram className="w-6 h-6 mr-3" />
-                  Enviar "Quero entrar no privado"
-                </span>
-                <div className="absolute inset-0 bg-gradient-to-r from-pink-400 to-orange-400 opacity-0 transition-opacity duration-300 group-hover:opacity-100"></div>
-              </button>
-              
+              <a href="https://ig.me/m/acervodelaz">
+                <button className="group relative overflow-hidden rounded-full bg-gradient-to-r from-pink-500 to-orange-500 px-12 py-6 text-xl font-bold text-white shadow-2xl transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:shadow-pink-500/25">
+                  <span className="relative z-10 flex items-center justify-center">
+                    <Instagram className="w-6 h-6 mr-3" />
+                    Enviar "Quero entrar no privado"
+                  </span>
+                  <div className="absolute inset-0 bg-gradient-to-r from-pink-400 to-orange-400 opacity-0 transition-opacity duration-300 group-hover:opacity-100"></div>
+                </button>
+              </a>
+
               <div className="bg-white/10 backdrop-blur-lg rounded-2xl p-6 border border-white/20">
                 <p className="text-white text-lg font-semibold mb-2">
                   💬 Para ter acesso:
@@ -192,10 +197,10 @@ export default function Home() {
                   2. Manda: "<span className="text-pink-300 font-semibold">Quero entrar no privado</span>"
                 </p>
                 <p className="text-purple-100 text-base">
-                  3. Recebe o acesso instantaneamente! 🔥
+                  3. Pague e receba o acesso instantaneamente! 🔥
                 </p>
               </div>
-              
+
               <p className="text-sm text-purple-200">
                 Acesso instantâneo • Seguro e discreto • Comunidade exclusiva
               </p>
