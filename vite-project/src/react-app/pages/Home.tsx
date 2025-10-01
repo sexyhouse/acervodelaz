@@ -49,11 +49,11 @@ export default function Home() {
             </p>
 
             <div className="mt-10 flex flex-col items-center justify-center gap-6">
-              <a href="https://ig.me/m/acervodelaz">
+              <a href="https://ig.me/m/privadodelaz">
                 <button className="group relative overflow-hidden rounded-full bg-gradient-to-r from-pink-500 to-orange-500 px-8 py-4 text-lg font-semibold text-white shadow-xl transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:shadow-pink-500/25">
                   <span className="relative z-10 flex items-center">
                     <Instagram className="w-5 h-5 mr-2" />
-                    Mandar "Quero entrar no privado" no Instagram
+                    Tenha acesso por apenas R$30
                   </span>
                   <div className="absolute inset-0 bg-gradient-to-r from-pink-400 to-orange-400 opacity-0 transition-opacity duration-300 group-hover:opacity-100"></div>
                 </button>
@@ -64,7 +64,7 @@ export default function Home() {
                   📱 <strong>Como ter acesso:</strong>
                 </p>
                 <p className="text-white font-semibold text-xl">
-                  Mande "<span className="text-pink-300">Quero entrar no privado</span>" no @acervodelaz
+                  Mande "<span className="text-pink-300">Quero entrar no privado</span>" no @privadodelaz ou @acervodelaz
                 </p>
               </div>
             </div>
@@ -105,7 +105,7 @@ export default function Home() {
                 <Flame className="h-12 w-12 text-orange-400 mb-6" />
                 <h3 className="text-xl font-semibold text-white mb-4">Vídeos Mais Ousados</h3>
                 <p className="text-purple-100 leading-7">
-                  Dancinhas mais provocantes, com um toque adulto. Coreografias que você não posta no perfil aberto.
+                  Dancinhas mais provocantes, com um toque adulto. Videos exclusivos que não posto no perfil aberto.
                 </p>
               </div>
             </div>
@@ -117,7 +117,7 @@ export default function Home() {
                 <Calendar className="h-12 w-12 text-purple-400 mb-6" />
                 <h3 className="text-xl font-semibold text-white mb-4">Conteúdo Frequente</h3>
                 <p className="text-purple-100 leading-7">
-                  Vídeos novos toda semana com estilos diferentes, spoilers dos bastidores e stories exclusivos.
+                  Vídeos novos toda semana com estilos diferentes, fotos de todos os tipos e stories exclusivos.
                 </p>
               </div>
             </div>
@@ -141,7 +141,7 @@ export default function Home() {
                 <Film className="h-12 w-12 text-orange-400 mb-6" />
                 <h3 className="text-xl font-semibold text-white mb-4">Zero Censura</h3>
                 <p className="text-purple-100 leading-7">
-                  Nada de filtros pesados, sem restrições do algoritmo. O que eu quero mostrar, eu mostro.
+                  Videos e fotos totalmente exclusivas com um toque a mais!
                 </p>
               </div>
             </div>
@@ -168,14 +168,14 @@ export default function Home() {
         <div className="relative mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto max-w-2xl text-center">
             <h2 className="text-4xl font-bold tracking-tight text-white sm:text-5xl mb-6">
-              Pronta para entrar?
+              Pronto para entrar?
             </h2>
             <p className="text-xl leading-8 text-purple-100 mb-10">
               Não perca mais tempo. Acesse agora os vídeos exclusivos que você sempre quis ver.
             </p>
 
             <div className="space-y-6">
-              <a href="https://ig.me/m/acervodelaz">
+              <a href="https://ig.me/m/privadodelaz">
                 <button className="group relative overflow-hidden rounded-full bg-gradient-to-r from-pink-500 to-orange-500 px-12 py-6 text-xl font-bold text-white shadow-2xl transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:shadow-pink-500/25">
                   <span className="relative z-10 flex items-center justify-center">
                     <Instagram className="w-6 h-6 mr-3" />
@@ -195,8 +195,11 @@ export default function Home() {
                 <p className="text-purple-100 text-base mb-3">
                   2. Manda: "<span className="text-pink-300 font-semibold">Quero entrar no privado</span>"
                 </p>
+                <p className="text-purple-100 text-base mb-3">
+                  3. Faça o pix para a chave que vai ser enviada
+                </p>
                 <p className="text-purple-100 text-base">
-                  3. Recebe o acesso instantaneamente! 🔥
+                  4. Tem acesso imediato ao instagram privado
                 </p>
               </div>
 
@@ -217,7 +220,7 @@ export default function Home() {
               <span className="text-lg font-semibold text-white">@acervodelaz</span>
             </div>
             <p className="text-purple-200">
-              © 2024 Acervo de Laz. Todos os direitos reservados.
+              © 2025 @acervodelaz. Todos os direitos reservados.
             </p>
           </div>
         </div>
